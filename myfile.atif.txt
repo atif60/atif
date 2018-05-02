@@ -1,0 +1,13 @@
+
+Process Id-->652
+
+ Enviroment Variables 
+
+
+ROOT-->(null)
+ PATH-->/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+ Thread Information 
+
+
+ Thread-->652

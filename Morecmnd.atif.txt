@@ -1,0 +1,20 @@
+
+-d	With this option, more will prompt the user with the message "[Press space to continue, 'q' to quit.]" and display "[Press 'h' for instructions.]" when an illegal key is pressed, instead of ringing a bell.
+
+-f	Causes more to count logical, rather than screen lines (i.e., long lines are not wrapped).
+
+-l	more usually treats ^L (CONTROL-L, the form feed) as a special character, and will pause after any line that contains it. The -l option will prevent this behavior.
+
+-p	Do not scroll. Instead, clear the whole screen and then display the text. This option is switched on automatically if the more executable is named page.
+
+-c	Do not scroll. Instead, paint each screen from the top, clearing the remainder of each line as it is displayed.
+
+-s	Squeeze multiple blank lines into one blank line.
+
+-u	Do not display underlines.
+
+-num 	Sets the number of lines that makes up a screenful. The lines must be an integer.
+
++num	Start displaying text at line number num.
+
++/string	Search for the string string, and advance to the first line containing string when the file is displayed.
